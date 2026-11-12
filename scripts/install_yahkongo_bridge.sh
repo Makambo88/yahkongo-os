@@ -11,7 +11,18 @@ sudo pacman -Syu --noconfirm
 # 2. Installation des paquets essentiels
 echo "Installation de Flatpak, Wine, Bottles et Fuse..."
 sudo pacman -S --noconfirm flatpak fuse2 wine-staging bottles
+# --- Installation d'Opera GX (via AUR) ---
+echo "Installation de l'assistant AUR (yay)..."
+# On installe yay s'il n'est pas déjà là (nécessaire pour les paquets AUR)
+if ! command -v yay &> /dev/null; then
+    sudo pacman -S --noconfirm --needed git base-devel
+    git clone https://aur.archlinux.org/yay.git /tmp/yay
+    cd /tmp/yay && makepkg -si --noconfirm
+    cd ~
+fi
 
+echo "Installation d'Opera GX..."
+yay -S --noconfirm opera-gx
 # 3. Ajout du dépôt Flathub
 echo "Ajout du dépôt Flathub..."
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo

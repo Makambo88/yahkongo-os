@@ -37,3 +37,4 @@ echo "Redémarre ta session pour appliquer les changements."
 echo "=== Activation des modules YAHKONGO ==="
 bash ~/YAHKONGO_OS/scripts/enable_hyprbars.sh
 bash ~/YAHKONGO_OS/scripts/enable_start_menu.sh
+bash ~/YAHKONGO_OS/scripts/set_yahkongo_wallpaper.sh

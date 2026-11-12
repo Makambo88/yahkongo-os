@@ -18,150 +18,150 @@
     "break",
     {
       "type": "custom",
-      "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
+      "format": "\u001b[90mв”Ңв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”ҖHardwareв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”җ"
     },
     {
       "type": "host",
-      "key": " PC",
+      "key": "п„ү PC",
       "keyColor": "green"
     },
     {
       "type": "command",
-      "key": "│ ├",
+      "key": "в”Ӯ в”ңп’ј",
       "keyColor": "green",
       "text": "omarchy-branding-about-cpu name"
     },
     {
       "type": "command",
       "key": " ",
-      "format": "{#1;32}│ │   {#}{result}",
+      "format": "{#1;32}в”Ӯ в”Ӯ   {#}{result}",
       "text": "omarchy-branding-about-cpu details"
     },
     {
       "type": "gpu",
-      "key": "│ ├",
+      "key": "в”Ӯ в”ңоүҰ",
       "detectionMethod": "pci",
       "format": "{name}",
       "keyColor": "green"
     },
     {
       "type": "display",
-      "key": "│ ├󱄄",
+      "key": "в”Ӯ в”ңуұ„„",
       "keyColor": "green"
     },
     {
       "type": "disk",
-      "key": "│ ├󰋊",
+      "key": "в”Ӯ в”ңу°ӋҠ",
       "keyColor": "green"
     },
     {
       "type": "memory",
-      "key": "│ ├",
+      "key": "в”Ӯ в”ңоҝ…",
       "keyColor": "green"
     },
     {
       "type": "swap",
-      "key": "└ └󰓡",
+      "key": "в”” в””у°“Ў",
       "keyColor": "green"
     },
     {
       "type": "custom",
-      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+      "format": "\u001b[90mв””в”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”ҳ"
     },
     "break",
     {
       "type": "custom",
-      "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
+      "format": "\u001b[90mв”Ңв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”ҖSoftwareв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”җ"
     },
     {
       "type": "command",
       "key": "\ue900 OS",
       "keyColor": "blue",
-      "text": "version=$(omarchy-version) && echo \"Omarchy $version\""
+      "text": "version=$(omarchy-version) && echo \"YAHKONGO OS $version\""
     },
     {
       "type": "command",
-      "key": "│ ├󰘬",
+      "key": "в”Ӯ в”ңу°ҳ¬",
       "keyColor": "blue",
       "text": "omarchy-version-branch"
     },
     {
       "type": "command",
-      "key": "│ ├󰔫",
+      "key": "в”Ӯ в”ңу°”«",
       "keyColor": "blue",
       "text": "channel=$(omarchy-version-channel); echo \"$channel\""
     },
     {
       "type": "kernel",
-      "key": "│ ├",
+      "key": "в”Ӯ в”ңпҖ“",
       "keyColor": "blue"
     },
     {
       "type": "wm",
-      "key": "│ ├",
+      "key": "в”Ӯ в”ңп’Ҳ",
       "keyColor": "blue"
     },
     {
       "type": "de",
-      "key": " DE",
+      "key": "п’Ҳ DE",
       "keyColor": "blue"
     },
     {
       "type": "terminal",
-      "key": "│ ├",
+      "key": "в”Ӯ в”ңп’ү",
       "keyColor": "blue"
     },
     {
       "type": "packages",
-      "key": "│ ├󰏖",
+      "key": "в”Ӯ в”ңу°Ҹ–",
       "keyColor": "blue"
     },
     {
       "type": "wmtheme",
-      "key": "│ ├󰉼",
+      "key": "в”Ӯ в”ңу°үј",
       "keyColor": "blue"
     },
     {
       "type": "command",
-      "key": "│ ├󰸌",
+      "key": "в”Ӯ в”ңу°ёҢ",
       "keyColor": "blue",
-      "text": "theme=$(omarchy-theme-current); echo -e \"$theme \\e[38m●\\e[37m●\\e[36m●\\e[35m●\\e[34m●\\e[33m●\\e[32m●\\e[31m●\""
+      "text": "theme=$(omarchy-theme-current); echo -e \"$theme \\e[38mв—Ҹ\\e[37mв—Ҹ\\e[36mв—Ҹ\\e[35mв—Ҹ\\e[34mв—Ҹ\\e[33mв—Ҹ\\e[32mв—Ҹ\\e[31mв—Ҹ\""
     },
     {
       "type": "terminalfont",
-      "key": "└ └",
+      "key": "в”” в””пҖұ",
       "keyColor": "blue"
     },
     {
       "type": "custom",
-      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+      "format": "\u001b[90mв””в”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”ҳ"
     },
     "break",
     {
       "type": "custom",
-      "format": "\u001b[90m┌────────────────Age / Uptime / Update───────────────┐"
+      "format": "\u001b[90mв”Ңв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”ҖAge / Uptime / Updateв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”җ"
     },
     {
       "type": "command",
-      "key": "󱦟 OS Age",
+      "key": "уұҰҹ OS Age",
       "keyColor": "magenta",
       "text": "days=$(( ($(date +%s) - $(stat -c %W /var/log)) / 86400 )); omarchy-i18n --count \"$days\" about.days \"$days\""
     },
     {
       "type": "command",
-      "key": "󱫐 Uptime",
+      "key": "уұ«җ Uptime",
       "keyColor": "magenta",
       "text": "up=$(cut -d. -f1 /proc/uptime); d=$((up / 86400)); h=$((up % 86400 / 3600)); m=$((up % 3600 / 60)); if [ \"$d\" -gt 0 ]; then omarchy-i18n agents.durationDaysHours \"$d\" \"$h\"; elif [ \"$h\" -gt 0 ]; then omarchy-i18n battery.durationHoursMinutes \"$h\" \"$m\"; else omarchy-i18n battery.durationMinutes \"$m\"; fi"
     },
     {
       "type": "command",
-      "key": " Update",
+      "key": "о¬© Update",
       "keyColor": "magenta",
       "text": "updated=$(omarchy-version-pkgs); echo \"$updated\""
     },
     {
       "type": "custom",
-      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+      "format": "\u001b[90mв””в”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”Җв”ҳ"
     },
     "break"
   ]

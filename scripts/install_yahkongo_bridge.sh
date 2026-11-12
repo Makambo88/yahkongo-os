@@ -33,3 +33,7 @@ echo "Les AppImages peuvent être placées dans ~/Applications"
 
 echo "=== Pont Logiciel installé avec succès ==="
 echo "Redémarre ta session pour appliquer les changements."
+# À la fin du script, ajoute :
+echo "=== Activation des modules YAHKONGO ==="
+bash ~/YAHKONGO_OS/scripts/enable_hyprbars.sh
+bash ~/YAHKONGO_OS/scripts/enable_start_menu.sh

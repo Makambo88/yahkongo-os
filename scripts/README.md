@@ -10,3 +10,12 @@ Ce dossier contient les scripts d'automatisation pour préparer le système apr�
 Ouvre un terminal et tape :
 ```bash
 bash scripts/install_yahkongo_bridge.sh
+
+## Compilation de l'ISO YAHKONGO OS
+
+Pour créer ta propre clé USB bootable YAHKONGO OS :
+
+1. Clone ton dépôt sur une machine Arch Linux :
+   ```bash
+   git clone https://github.com/Makambo88/yahkongo-os.git
+   cd yahkongo-os

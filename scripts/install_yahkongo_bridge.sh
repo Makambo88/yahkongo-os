@@ -49,3 +49,7 @@ echo "=== Activation des modules YAHKONGO ==="
 bash ~/YAHKONGO_OS/scripts/enable_hyprbars.sh
 bash ~/YAHKONGO_OS/scripts/enable_start_menu.sh
 bash ~/YAHKONGO_OS/scripts/set_yahkongo_wallpaper.sh
+# --- Configuration du navigateur par défaut ---
+echo "Configuration d'Opera GX comme navigateur par défaut..."
+# On utilise la commande d'Omarchy avec l'identifiant du fichier .desktop d'Opera GX
+omarchy default browser opera-gx.desktop
